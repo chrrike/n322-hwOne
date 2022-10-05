@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Flora</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<!-- <ion-button (click)="buttonClicked('Christina')">Click</ion-button> -->
+
+<ion-card *ngFor="let card of cards" routerLink="/details/{{card.id}}" routerDirection="forward">
+  <ion-card-header> 
+    <ion-card-title>{{card.title}}</ion-card-title>
+  </ion-card-header>
+</ion-card>
+</ion-content>

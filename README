@@ -1,0 +1,6 @@
+## Homework One
+
+You must create an Ionic app that uses Angular and name it whatever describes your application.
+You will then have a home page that has a list with whatever you want on the list. If you want your list items can be sliding items.
+You will then navigate to the list detail page when you click on a list item.
+On the detail page, you must have a back button that navigates back to the home page.
